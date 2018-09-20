@@ -1,0 +1,432 @@
+.khung{
+	margin: 0 auto;
+	width: 85%;
+	height: 3000px;
+	/*background: gray;*/
+}
+.khung .ld{
+	float: left;
+	width: 100%;
+	height: 50px;
+	background: black;
+}
+.ld .left{
+	float: left;
+	width: 50%;
+	height: 100%;
+/*	background: #036;*/
+}
+.left .c{
+	float: left;
+	margin-top: 10px;
+	margin-left: 20px;
+	width: 100%;
+	height: 60%;
+	/*background: green;*/
+}
+.left .c ul{
+	float: left;
+	margin: 0;
+	padding: 0;
+/*	width: 40%;*/
+	height: 100%;
+	list-style: none;
+/*	background: red;*/
+}
+.left .c ul li{
+	display: block;
+	float: left;
+	width: 75px;
+	height: 100%;
+	/*background: #666;*/
+	line-height: 25px;
+	border-right: 2px solid white;
+}
+.left .c ul li a{
+	font-size: 18px;
+	text-decoration: none;
+	color: white;
+	text-align: center;
+}
+.left .c p{
+	display: block;
+	float: left;
+	color: yellow;
+	padding-left: 15px;
+	padding-top: 6px;
+	padding-right: 15px;
+	margin: 0;
+}
+.ld .right{
+	float: left;
+	width: 50%;
+	height: 100%;
+}
+.right .c{
+	float: left;
+	margin-top: 10px;
+	margin-left: 20px;
+	width: 100%;
+	height: 60%;
+}
+.right .c p{
+	display: block;
+	margin: 0;
+	float: left;
+	text-transform: uppercase;
+	color: white;
+	padding-top: 5px;
+	margin-left: 100px;
+	margin-right: 10px;
+}
+.khung .menu{
+	display: block;
+	float: left;
+	margin: 0;
+	width: 100%;
+	height: 100px;
+	background: white;
+}
+.menu .m-left{
+	float: left;
+	width: 30%;
+	height: 100%;
+}
+.menu .m-left h3{
+	font-size: 38px;
+	color: yellow;
+	line-height: 25px;
+	text-transform: uppercase;
+	padding-left: 15px;
+}
+.menu .m-right{
+	float: left;
+	width: 70%;
+	height: 100%;
+}
+.menu .m-right ul{
+	list-style: none;
+	padding-top: 25px;
+}
+.menu .m-right ul li{
+	display: block;
+	float: left;
+	height: 100%;
+	padding-left: 30px;
+	/*background: #666;*/
+}
+.menu .m-right ul li a{
+	text-decoration: none;
+	font-size: 16px;
+	font-family: "Arial";
+}
+.menu .m-right ul li a:hover{
+	color: red;
+}
+.menu .m-right ul li a.act{
+	color: yellow;
+}
+.menu .m-right ul li a.act:hover{
+	color: red;
+}
+.khung .slide{
+	float: left;
+	width: 100%;
+	height: 350px;
+	background: #000;
+}
+.slide h3{
+	display: block;
+	color: white;
+	padding-left: 20px;
+	font-size: 48px;
+	text-transform: uppercase;
+	font-family: "Arial";
+/*	padding-top: 15px;*/
+}
+.slide p{
+	display: block;
+	margin: 0;
+	font-size: 18px;
+	color: white;
+	line-height:30px;
+	padding-left: 20px;
+	padding-top: 5px;
+	margin-bottom: 5px;
+}
+.slide .a{
+	display: block;
+	margin: 0;
+	float: left;
+	width: 120px;
+	height: 50px;
+	background: yellow;
+	margin-left: 20px;
+	border-radius: 3px;
+}
+.slide .a a{
+	text-align: center;
+	font-size: 14px;
+	color: white;
+	line-height: 50px;
+	padding-left: 12px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bolder;
+}
+.slide .a a:hover{
+	color: blue;
+}
+.khung .content{
+	float: left;
+	width: 100%;
+	height: 350px;
+}
+.content .box{
+	float: left;
+	width: 31%;
+	height: 100%;
+	margin:0 1.1%;
+	/*background: #126;*/
+}
+.box .img{
+	float: left;
+	width: 100%;
+	height: 50%;
+	background: #326;
+	margin-bottom: 5px;
+}
+.box h3{
+	text-transform: uppercase;
+	font-size: 22px;
+	padding: 0;
+	margin: 0;
+}
+.box p{
+	color: grey;
+	font-size: 17px;
+	line-height: 25px;
+}
+.box a{
+	color: yellow;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: bolder;
+	text-decoration: none;
+}
+.box a:hover{
+	color: red;
+}
+.slide .ac{
+	display: block;
+	margin: 0;
+	float: left;
+	width: 170px;
+	height: 50px;
+	background: yellow;
+	margin-left: 20px;
+	border-radius: 3px;
+}
+.slide .ac a{
+	text-align: center;
+	font-size: 14px;
+	color: white;
+	line-height: 50px;
+	padding-left: 12px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bolder;
+}
+.slide .ac a:hover{
+	color: blue;
+}
+.khung .icon{
+	float: left;
+	width: 100%;
+	height: 200px;
+	background: #003;
+}
+.icon .box1{
+	float: left;
+	width: 25%;
+	height: 100%;
+}
+.box1 .top{
+	float: left;
+	width: 100%;
+	height: 50%;
+	border-bottom: 2px solid black;
+}
+.box1 .bot{
+	float: left;
+	width: 100%;
+	height: 50%;
+}
+.box1 .bot p{
+	margin: 0;
+	padding-left: 28%;
+	text-transform: uppercase;
+	color: grey;
+}
+.icon .box2{
+	float: left;
+	width: 25%;
+	height: 100%;
+	background:#036;
+}
+.box2 .top{
+	float: left;
+	width: 100%;
+	height: 50%;
+	border-bottom: 2px solid black;
+}
+.box2 .bot{
+	float: left;
+	width: 100%;
+	height: 50%;
+}
+.box2 .bot p{
+	margin: 0;
+	padding-left: 28%;
+	text-transform: uppercase;
+	color: grey;
+}
+.khung .sl-bar{
+	float: left;
+	width: 100%;
+	height: 350px;
+	background: #666;
+}
+.sl-bar .text{
+	float: left;
+	width: 60%;
+	height: 100%;
+	border-right: 1px solid black;
+}
+.sl-bar .pic{
+	float: left;
+	width: 40%;
+	height: 100%;
+}
+.sl-bar .text h3{
+	text-transform: uppercase;
+	font-size: 28px;
+	padding-top: 10px;
+	padding-left: 20px;
+	margin: 0;
+}
+.sl-bar .text p{
+	color: grey;
+	padding-left: 10px;
+	font-size: 20px;
+	line-height: 25px;
+}
+.sl-bar .text ul li{
+	color: grey;
+	padding-left: 10px;
+	font-size: 20px;
+	line-height: 30px;
+}
+.khung .cont{
+	float: left;
+	width: 100%;
+	height: 400px;
+	background: #036;
+}
+.khung .cont .tr{
+	float: left;
+	width: 100%;
+	height: 30%;
+	border-bottom: 1px solid black;
+}
+.cont .tr h3{
+	text-transform: uppercase;
+	font-size: 28px;
+	color: white;
+	text-align: center;
+	line-height: 5px;
+}
+.cont .tr p{
+	font-size: 18px;
+	line-height: 25px;
+	color: white;
+	text-align: center;
+}
+.khung .cont .d{
+	float: left;
+	width: 100%;
+	height: 70%;
+}
+.cont .d .bx{
+	float: left;
+	width: 300px;
+	height: 100%;
+	/*border-right: 1px solid black;*/
+}
+.d .bx .vuong{
+	float: left;
+	width: 180px;
+	height: 100%;
+	/*border-right: 1px solid black;*/
+	background: #336699;
+}
+.vuong .pic{
+	float: left;
+	margin-top: 40px;
+	margin-left: 30px;
+	width: 100px;
+	height: 100px;
+	border-radius: 99%;
+	border: 5px solid white;
+	margin-bottom: 35px;
+	background: red;
+}
+.vuong .pic p{
+	font-size: 38px;
+	color: white;
+	text-align: center;
+	line-height: 20px;
+	font-weight: 800;
+}
+.vuong h3{
+	display: block;
+	text-transform: uppercase;
+	font-size: 20px;
+/*	padding-top: 30px;*/
+	text-align: center;
+	color: white;
+}
+.d .bx .te{
+	float: left;
+	width: 120px;
+	height: 100%;
+	background: green;
+}
+.d .bx .te p{
+	color: white;
+	font-size: 20px;
+	padding-top: 70px;
+	text-align: center;
+	letter-spacing: 2px;
+}
+.cont .d .bxx{
+	float: left;
+	width: 200px;
+	height: 100%;
+	background: blue;
+	/*border-right: 1px solid black;*/
+}
+.d .bxx .vuong{
+	float: left;
+	width: 160px;
+	height: 100%;
+	/*border-right: 1px solid black;*/
+	background: #336699;
+}
+.vuong h3{
+/*	display: block;*/
+	text-transform: uppercase;
+	font-size: 20px;
+	text-align: center;
+	color: white;
+}
